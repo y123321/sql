@@ -1,1 +1,1 @@
-CREATE TABLE T(ID int)
+create table ttt(id int)
