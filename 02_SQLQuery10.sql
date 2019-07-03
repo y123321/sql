@@ -1,1 +1,1 @@
-drop table t4(id int)
+drop table t4
