@@ -15,4 +15,4 @@ VALUES((SELECT ISNULL( MAX(installed_rank),0) + 1 installed_rank FROM flyway_sch
 drop table t1
 -------------------------------------------------------------------------
 EndScript:
->>>>>>> 5eeaf57b249482ec67e0cc4de4fc0f7171191b90
+>>>>>>> cbd52c3ea5c2c4ababcfea5f6c1b5371c8b29cfd
