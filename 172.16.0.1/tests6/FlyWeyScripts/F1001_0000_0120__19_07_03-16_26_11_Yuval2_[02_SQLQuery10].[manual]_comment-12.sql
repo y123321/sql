@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-drop table t4
-=======
->>>>>>> 8735e6299031c11d16f57dc4ec2907293082682c
 ------------------------Add row to flyway-schema-version-----------------
 
 IF EXISTS(SELECT TOP 1 1 FROM flyway_schema_history where [version] = '1001.0000.0120' OR description = '19 07 03-16 26 11 Yuval2 [02 SQLQuery10].[manual] comment-12' OR script = 'F1001_0000_0120__19_07_03-16_26_11_Yuval2_[02_SQLQuery10].[manual]_comment-12.sql')
@@ -17,9 +11,4 @@ VALUES((SELECT ISNULL( MAX(installed_rank),0) + 1 installed_rank FROM flyway_sch
 -------------------------------------------------------------------------
 drop table t4
 -------------------------------------------------------------------------
-<<<<<<< HEAD
 EndScript:
-=======
-EndScript:
->>>>>>> 5eeaf57b249482ec67e0cc4de4fc0f7171191b90
->>>>>>> 8735e6299031c11d16f57dc4ec2907293082682c
